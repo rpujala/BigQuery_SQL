@@ -1,0 +1,17 @@
+
+-- Projectname.dataset.tablename
+
+create or replace table `sql-skillshare-123.teaching.rajivs_salary` as
+with 
+first_temp_table as (
+select 1 as sno, 'Rajiv' as name, 'Pujala' as surname, 'IN' as country
+union all
+select 2 as sno, 'Sai' as name, 'Chaganti' as surname, 'MY' as country
+union all
+select 3, 'Mahesh', 'Ch', 'SG'
+),
+second_temp_table as (
+  select 'Rajiv' as name, 'INR' as currency, 100 as weekly_salary
+)
+
+select * from second_temp_table
