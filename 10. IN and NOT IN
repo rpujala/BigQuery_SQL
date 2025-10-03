@@ -1,0 +1,7 @@
+
+select * from `sql-skillshare-123.mart.sales`
+where product_name not in ('Laptop', 'Headphones');
+
+select * from `sql-skillshare-123.mart.sales`
+where product_name  in ('Laptop', 'Headphones')
+
