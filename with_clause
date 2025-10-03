@@ -1,0 +1,5 @@
+with sample_data as (
+ select 'Rajiv' as name, 'Pujala' as surname, 'IN' as country
+)
+
+select * from sample_data
