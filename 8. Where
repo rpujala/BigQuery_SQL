@@ -1,0 +1,6 @@
+
+select * from `sql-skillshare-123.mart.sales`
+where product_name = 'Laptop' or product_name = 'Headphones';
+
+select * from `sql-skillshare-123.mart.sales`
+where category='Electronics' and product_name='Smartphone'
