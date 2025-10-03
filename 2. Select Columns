@@ -1,0 +1,5 @@
+SELECT
+  Name,
+  Country
+FROM
+  `sql-skillshare-123.teaching.random_people_2`;
