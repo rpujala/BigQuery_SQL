@@ -1,0 +1,5 @@
+SELECT 
+  category,
+  sum(quantity * price_per_unit) as sale
+ FROM `sql-skillshare-123.mart.sales`
+  group by 1
