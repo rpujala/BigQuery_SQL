@@ -1,0 +1,9 @@
+with 
+data as (
+select 1 as sno,
+      'Rajiv' as name,
+      'Pujala' as surname,
+      'India' as country
+)
+
+select * from data;
