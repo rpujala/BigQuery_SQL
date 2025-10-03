@@ -1,0 +1,12 @@
+
+with data as (
+select 'Rajiv' as name, 'Pujala' as surname
+union all
+select 'Ashok', 'Pujala'
+union all
+select 'Mahesh', 'Ch'
+)
+
+select * from data
+where lower(surname) not like 'puja%'
+
