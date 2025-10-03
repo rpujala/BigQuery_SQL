@@ -1,0 +1,2 @@
+select * from `sql-skillshare-123.mart.sales`
+where customer_id between 101 and 104
